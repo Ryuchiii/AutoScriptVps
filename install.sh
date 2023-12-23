@@ -24,7 +24,7 @@ gb="\e[92;1m"
 purple="\033[1;95m"
 p="\033[1;95m"
 YELL='\033[0;33m'
-rm -f /root/run.sh
+rm -f /root/kontol.sh
 clear
 echo ""
 echo ""
@@ -37,5 +37,5 @@ apt upgrade -y
 apt install -y bzip2 gzip coreutils screen curl unzip 
 apt install lolcat -y 
 apt install neofetch -y
-wget https://aio.tekirovpn.my.id/run.sh && chmod +x run.sh && ./run.sh
-rm -f /root/run.sh
+wget https://tekirovpn.my.id/run.sh && chmod +x kontol.sh && ./kontol.sh
+rm -f /root/kontol.sh
